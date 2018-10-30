@@ -1,5 +1,12 @@
+@viewport {
+    width: 980px;
+    min-zoom: 1.5;
+    max-zoom: 1.5;
+    /* orientation: landscape; */
+}
+
 body{
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 
@@ -50,13 +57,13 @@ img.logo{
 }
 
 #tabs-swipe{
-    background-color: transparent;
+    background-color: white;
 }
 .tab.col{
     background-color: rgba(255, 255, 255, 0.678);
 }
 .col.panel{
-    background-color: rgba(255, 255, 255, 0.678)!important;
+    background-color: rgba(255, 255, 255)!important;
     
     height:800px;
    
