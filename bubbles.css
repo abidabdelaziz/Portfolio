@@ -40,25 +40,39 @@ nav{
 
 .aboutMe{
 
-    height:400px !important;
-    width: 600px !important;
+    height:50% !important;
+    width: 35% !important;
     padding: 0;
-    margin: auto;
+    margin: none;
     display: block;
     position: absolute;
-    top: 0;
+    top: 230px;
     bottom: 0;
-    left: 0;
-    right:1%;
+    left: 60%;
+    right:0;
     text-align: center;
+    background-color:#2e4482;
+    border-radius: 10px;
 
 
 }
 .profilePicWrapper{
-    width: 600px;
+    width: 100%;
 }
 .profilePicWrapper > img {
-    max-width: 100%;
+    width: 90%;
+    left:0%;
+    position:relative;
+    height:auto;
+    border-radius: 10px;
+  }
+
+  .profilePicWrapper > p {
+    width: 90%;
+    left:5%;
+    position:relative;
+    height:auto;
+   
   }
 
 
@@ -88,12 +102,6 @@ nav{
 }
 
 
-
-.carousel.carousel-slider.center{
-   
-}
-
-
 .secFourWrap{
     height:650px;
     width: 100%;
@@ -109,30 +117,52 @@ nav{
 
 .playlist{
     padding: 0;
-    margin: auto;
-    display: block;
+    margin: none;
+    display: inline;
     position: absolute;
-    top: 170px;
+    top: 190px;
     bottom: 0;
-    left: 0;
+    left: 20px;
     right: 0;
+    width:33%;
+    height:58%;
+    background-color:#2e4482;
+    border-radius: 10px;
 
 }
+
+.playlist > iframe{
+    position:relative;
+    top: 30px;
+    left:5%;
+  
+
+}
+
 
 .blog{
-    height:300px;
+    height:30%;
+    width:40%;
     padding: 0;
-    margin: auto;
-    display: block;
+    margin: none;
+    display: inline;
     position: absolute;
-    top: 0;
+    top: 330px;
     bottom: 0;
-    left: 51%;
-    right: 0;
-    text-align:center
+    left: 40%;
+    right: 20px;
+    text-align:center;
+    background-color:#2e4482;
+    border-radius: 10px;
+
 }
 .blog > img {
-    max-height: 100%;
+    position: relative;
+    top:5%;
+    max-height: 90%;
+
+    border-radius: 10px;
+
   }
 
 .timeline{
