@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abidabdelaziz/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abidabdelaziz/Portfolio/issues"
+  },
+  "homepage": "https://github.com/abidabdelaziz/Portfolio#readme",
+  "dependencies": {
+    "chart.js": "^2.7.3",
+    "pagepiling.js": "^1.5.5"
+  }
+}

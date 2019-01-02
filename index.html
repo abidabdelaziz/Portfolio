@@ -3,12 +3,8 @@
 <title id ="name" >Abid M. Abdelaziz</title>
 <head>
 
-		<script
-		src="https://code.jquery.com/jquery-3.3.1.js"
-		integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-		crossorigin="anonymous"></script>
-		<script type= "text/javascript" src="javascript/bubble.js"></script>
-		<script type= "text/javascript" src="javascript/alphabet.js"></script>
+		
+		
 		<link rel="stylesheet" type="text/css" href="bubbles.css">
 
 		 <!-- Compiled and minified CSS -->
@@ -19,144 +15,232 @@
 
 		 <link rel="stylesheet" type="text/css" href="icons.css">
 
-		 <!-- Compiled and minified JavaScript -->
-		 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+		
+
+		 <link rel="stylesheet" type="text/css" href="CSS/jquery.pagepiling.css" />
+
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.js"></script>
+
+		 <!-- 1 -->
+		 <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+		 <!-- 2 -->
+		 <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+		 
 				 
 
 </head>
 <body>
 <body  style="background-color:transparent">
 
-	<div class="container">
-	<div class="row">
-		<canvas id="myCanvas"></canvas>
-	</div>
-	
-	
-	<div class="row Tnain">
-
-			<ul id="tabs-swipe" class="tabs">
-					<li class="tab col s3"><a href="#test-swipe-1" class="tabItem">Skillset</a></li>
-					<li class="tab col s2"><a class="active tabItem" href="#test-swipe-2">Abid</a></li>
-					<li class="tab col s3"><a href="#test-swipe-3" class="tabItem">Projects</a></li>
-					<li class="tab col s2"><a href="#test-swipe-4" class="tabItem">Music</a></li>
-					<li class="tab col s2"><a href="#test-swipe-5"class="tabItem" >Writing</a></li>
-			</ul>
-				<div id="test-swipe-1" class="col s12  panel">
-
-						<div class="row">
-								<div class="col s2">  <img class="logo" src="images/htmlicon.png"></div>
-								<div class="col s2">  <img  class="logo" src="images/cssicon.png"></div>
-								<div class="col s2">  <img  class="logo" src="images/jquerylogo.png"></div>
-								<div class="col s2">  <img  class="logo" src="images/jslogo.png"></div>
-								<div class="col s2">  <img  class="logo" src="images/bootstrapicon.png"></div>
-								<div class="col s2">  <img  class="logo" src="images/materialiaeicon.png"></div>
-						</div>
-						<div class="row">
-							<div class="col s2">  <img class="logo" src="images/nodejsicon.png"></div>
-							<div class="col s2">  <img  class="logo" src="images/expressicon.png"></div>
-							<div class="col s2">  <img  class="logo" src="images/mongodbicon.png"></div>
-							<div class="col s2">  <img  class="logo" src="images/react-icon.png"></div>
-							<div class="col s2">  <img  class="logo" src="images/herokuicon.png"></div>
-							<div class="col s2">  <img  class="logo" src="images/gitlogo.png"></div>
-					</div>
-					<div class="row">
-						<div class="col s2">  <img class="logo" src="images/sqlicon.png"></div>
-						<div class="col s2">  <img  class="logo" src="images/flstudioicon.png"></div>
-						<div class="col s2">  <img  class="logo" src="images/matlabicon.png"></div>
-						<div class="col s2">  <img  class="logo" src="images/pythonicon.png"></div>
-						<div class="col s2">  <img  class="logo" src="images/flaskicon.png"></div>
-						<div class="col s2">  <img  class="logo" src="images/auth0icon.png"></div>
-				</div>
-						
-
-
-				</div>
-				<div id="test-swipe-2" class="col s12  panel">
-
-
-					<div class = "row">
-						<div class ="col s6 aboutMe">
-								<h4>Welcome to my page! My name is Abid and I am a former Geophysicist, Project Manager, and Small Business Manager.As a recent graduate of the UT Coding Bootcamp I am eager to continue pushing my limits in this crazy awesome tech landscape we live in, this time as a developer.</h4>
-						</div>
-						<div class = "col s6 aboutPic"> 
-							<div class="card">
-									<div class="card-image waves-effect waves-block waves-light">
-									  <img class="activator" src="images/portfoliopic.jpg">
-									</div>
-									<div class="card-content">
-									  <span class="card-title activator grey-text text-darken-4">Abid M. Abdelaziz<i class="material-icons ">expand_less</i></span>
-									  <!-- Start Buttons -->
-						<a class="waves-effect waves-light btn blue" onclick="$('.tap-target').tapTarget('open')">Show Contact</a>
-						<a class="waves-effect waves-light btn blue" onclick="$('.tap-target').tapTarget('close')">Hide Contact</a>
-						<!-- End Buttons -->
-					
-					
-						<!-- Start Tap Target Structure -->
-						<div class="tap-target blue" data-activates="menu">
-							<div class="tap-target-content white-text">
-								<h5>abid.m.abdelaziz@gmail.com</h5>
-								<a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a>
-								<a href="" class="social-icon"> <i class="fa fa-facebook"></i></a>
-								<p>A creatively and analytically minded developer excited to be a part of your team and next challenge!</p>
-							</div>
-						</div>
-						<!-- End Tap Target Structure -->>
-									</div>
-									<div class="card-reveal">
-									  <span class="card-title grey-text text-darken-4">Thinker-Developer-Creater<i class="material-icons right">close</i></span>
-									  <p>A bit about me.</p>
-									</div>
-							</div>
-						</div>
-					</div>
-					<div class= "row">
-					
-					</div>
-				</div>
-				<div id="test-swipe-3" class="col s12  panel">
-
-						<div class = "row">
-										
-							
-
-						</div>
-
-						<div class = "row">
-						</div>
-
-
-				</div>
-				<div id="test-swipe-4" class="col s12  panel">
-						<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332469420&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-								
-						<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339089707&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-					
-						<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/289592729&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
-				</div>
-				<div id="test-swipe-5" class="col s12  panel">
-						<iframe height="900" width ="100%" src="https://www.ahorsealone.com"></iframe>
-
-				</div>
-		
-	</div>
-
-
-
-	
-	</div>
-
 
 
 	<canvas id="spheres"></canvas>
 	
 	<script type = "text/javascript" src = "javascript/spheres.js"></script>
-	<script type= "text/javascript" src="javascript/bubble.js"></script>
-	<script type= "text/javascript" src="main.js"></script>
+
+<nav>
+	<ul id="myMenu">
+		<li data-menuanchor="firstPage" class="active"><a href="#firstPage">Home</a></li>
+		<li data-menuanchor="secondPage"><a href="#secondPage">Skillset</a></li>
+		<li data-menuanchor="thirdPage"><a href="#thirdPage">Projects</a></li>
+		<li data-menuanchor="fourthPage"><a href="#fourthPage">Art</a></li>
+		<li data-menuanchor="fifthPage"><a href="#fifthPage">Experience</a></li>
+	</ul>
+</nav>
+
+
+
+	<div id="pagepiling">
+		<div class="section">
+			<div class="logoWrap">  
+			<img class= "portfoliologo" src="images/portoflio_logo.png" style="width:500px;height:500px;"></div>
+			</div>
+			
+		<div class="section">
+
+			<div class ="secTwoWrap">
+		
+				<canvas id="myChart" ></canvas>
+
+
+
+
+				  <div class= "aboutMe">
+					  <span>About Me</span>
+					  <div class="profilePicWrapper">
+							<img class="profilePic" src="images/portfoliopic.jpg">
+							Despite the uniqueness and remarkability of the individual, I believe that through communication and understanding, work that is greater than the sum of our parts can be accomplished. Through my technical work off-shore and managerial experience I have been exposed to a diversity of work-settings world-wide. I believe I am well-equipped with these experiences to tackle a rewarding and challenging journey as a developer!
+					  </div>
+
+				  </div>
+				  
+	        </div>
+
+
+		</div>
+		<div class="section">
+
+			<div class ="secThreeWrap">
+					<div class="carousel carousel-slider center">
+							
+							<div class="carousel-item white-text" href="#one!">
+							  <h2>First Panel</h2>
+							  <p class="white-text">This is your first panel</p>
+							</div>
+							<div class="carousel-item  white-text" href="#two!">
+							  <h2>Second Panel</h2>
+							  <p class="white-text">This is your second panel</p>
+							</div>
+							<div class="carousel-item  white-text" href="#three!">
+							  <h2>Third Panel</h2>
+							  <p class="white-text">This is your third panel</p>
+							</div>
+							<div class="carousel-item  white-text" href="#four!">
+							  <h2>Fourth Panel</h2>
+							  <p class="white-text">This is your fourth panel</p>
+							</div>
+					</div>
+				
+			</div>
+
+		</div>
+		<div class="section">
+
+				<div class ="secFourWrap">
+					<div class="playlist"> 
+						<iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/341395120&color=%23bac8b9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+						<iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/339089707&color=%23f9f7f5&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+						<iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/332469420&color=%23e5cabf&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+						<iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/331164002&color=%23ececec&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+
+						<iframe width="50%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/325763728&color=%239fc9a9&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+				
+					</div>
+
+					<div class="blog">
+
+                          <img class="blogpic" src="images/Capture_blog.JPG">
+
+					</div>
+				</div>
+
+		</div>
+
+
+		<div class="section">
+
+				<div class ="secFiveWrap">
+					<div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+					</div>
+
+		</div>
+	</div>
+
+
+	<script type="text/javascript">
+
+		 var additionalOptions = {
+              start_at_end: false,
+              default_bg_color: {r:255, g:255, b:255},
+              timenav_height: 250
+            }
+      
+        timeline = new TL.Timeline('timeline-embed',
+          'https://docs.google.com/spreadsheets/d/1NEwkh-kyvmvjz5JBLBXdHWSiUNZN6280kLKPcFDaA1c/edit#gid=0',additionalOptions);
+      </script>
+
+
+
+
+	<script>
+		var ctx = document.getElementById("myChart");
+		Chart.defaults.global.legend.display = false
+		Chart.defaults.global.defaultFontSize = 30;
+		Chart.defaults.global.defaultFontColor= 'white';
+		// Chart.defaults.global.defaultFontFamily= 'Helvetica Neue';
+
+		var myChart = new Chart(ctx, {
+			type: 'horizontalBar',
+			data: {
+				labels: ["JS", "React", "Angular", "HTML", "CSS","Bootstrap","Materialize", "JQuery", "Node","Express", "SQL", "Mongo"],
+				datasets: [{
+
+					data: [10, 8, 5, 8, 7, 8,8,9,8,7,7,10],
+					backgroundColor: [
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+						'rgba(54, 162, 235, 0.4)',
+					],
+					borderColor: [
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+						'rgba(54, 162, 235, 1)',
+					],
+					borderWidth: 1
+				}]
+			},
+			options: {
+				title: {
+					display: true,
+					text: 'Coding Profiency'
+				},
+				scales: {
+					yAxes: [{
+
+					}],
+					xAxes: [{
+						ticks: {
+							beginAtZero: true
+						},
+						display: false //this will remove all the x-axis grid lines
+					}],
+
+				}
+			}
+				});
+	</script>
 
 
 
 
 
+
+
+	<script
+	src="https://code.jquery.com/jquery-3.3.1.js"
+	integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="javascript/jquery.pagepiling.js"></script>
+	<script type="text/javascript" src="javascript/ui.js"></script>
+
+	 <!-- Compiled and minified JavaScript -->
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+	
 </body>
 </html>
