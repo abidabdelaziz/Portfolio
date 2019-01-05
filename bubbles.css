@@ -141,8 +141,8 @@ nav{
 
 
 .blog{
-    height:30%;
-    width:40%;
+    height:35%;
+    width:50%;
     padding: 0;
     margin: none;
     display: inline;
@@ -159,7 +159,8 @@ nav{
 .blog > img {
     position: relative;
     top:5%;
-    max-height: 90%;
+    width: 90%;
+    height: 90%;
 
     border-radius: 10px;
 
@@ -175,8 +176,12 @@ nav{
     left: 0;
     right: 0;
 }
+
+
+
+
 .tl-slider-background{
-    background-color: rgba(0, 0, 0, 0.116)!important;
+    background-color: rgba(83, 78, 126, 0.479)!important;
 }
 
 
