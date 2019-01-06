@@ -33,7 +33,7 @@ nav{
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 0;
+    left: 5%;
 
     
 }
@@ -102,6 +102,12 @@ nav{
 }
 
 
+
+.carousel.carousel-slider.center{
+    height:105%;
+}
+
+
 .secFourWrap{
     height:650px;
     width: 100%;
@@ -120,12 +126,13 @@ nav{
     margin: none;
     display: inline;
     position: absolute;
-    top: 190px;
+    top: 20%;
     bottom: 0;
     left: 20px;
     right: 0;
     width:33%;
     height:58%;
+    text-align:center;
     background-color:#2e4482;
     border-radius: 10px;
 
@@ -133,21 +140,21 @@ nav{
 
 .playlist > iframe{
     position:relative;
-    top: 30px;
-    left:5%;
+    top: 10px;
+    left:.15%;
   
 
 }
 
 
 .blog{
-    height:35%;
+    height:55%;
     width:50%;
     padding: 0;
     margin: none;
     display: inline;
     position: absolute;
-    top: 330px;
+    top: 25%;
     bottom: 0;
     left: 40%;
     right: 20px;
